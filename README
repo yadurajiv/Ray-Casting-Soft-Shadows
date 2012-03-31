@@ -2,6 +2,12 @@ This is a ray casting and soft shadow example written in ActionScript.
 
 As seen here - http://chronosign.com/node/26
 
+2D Raycasting and Soft shadows - realtime in flash. I had to make a small framework and a way to create some basic primitives, then moved on to the ray casting bit, and then to shadows.
+
+The (inner/outer)Penumbra is not really rendered as explained in the document, It was drawn initially, but didn't look so great. Instead the shadows were blurred using flash filters. The blend modes (colour blending modes) take more cpu than the actual casting.
+
+Reference: http://www.ingd.in/lGp
+
 [Getting it up and running in windows]
 Get Flex 4.1
 Get Flash Develop
