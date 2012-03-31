@@ -1,0 +1,21 @@
+This is a ray casting and soft shadow example written in ActionScript.
+
+[Getting it up and running in windows]
+Get Flex 4.1
+Get Flash Develop
+Open rayCastingSoftShadows.as3proj and you are set to go
+
+[Command line using mxmlc]
+Get Flex 4.1
+
+Make sure that JAVA_HOME variable is set to where Java/jre is - (note: win7 64bit might have java64bit in it's path, make sure to use Flex 64bit or point the JAVA_HOME to 32bit jre folder in Progarm Files(x86))
+
+to compile, run mxmlc from the command line inside the Folder
+
+For Debug
+mxmlc -optimize=true -output bin/rayCastingSoftShadows.swf -static-link-runtime-shared-libraries=true --target-player=10.0.0 -compiler.debug=true src/Main.as
+
+For Release
+mxmlc -optimize=true -output bin/rayCastingSoftShadows.swf -static-link-runtime-shared-libraries=true --target-player=10.0.0 -compiler.debug=false src/Main.as
+
+Note: running mxmlc on fcsh(the flash shell which comes with Flex) is much faster if you have to repeatedly compile your code. The same command above will work inside fcsh
