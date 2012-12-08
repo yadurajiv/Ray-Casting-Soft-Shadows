@@ -27,3 +27,7 @@ For Release
 mxmlc -optimize=true -output bin/rayCastingSoftShadows.swf -static-link-runtime-shared-libraries=true --target-player=10.0.0 -compiler.debug=false src/Main.as
 
 Note: running mxmlc on fcsh(the flash shell which comes with Flex) is much faster if you have to repeatedly compile your code. The same command above will work inside fcsh
+
+[Javascript Port]
+
+You can find a js port of the same by @is__real here - http://www.is-real.net/experiments/canvas/soft-shadows/
